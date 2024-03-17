@@ -1,6 +1,4 @@
-Weather Application
-Description
-This weather application allows users to check the weather conditions of different cities around the world. Users can enter the name of a city and view its current weather information, including temperature, humidity, and wind speed. The application also provides weather icons to visually represent the weather conditions.
+Weather Application 
 ![image](https://github.com/Waqas56jb/Weather-Application/assets/156122615/2a42370f-b7d4-41c5-992c-34ecc89b1508)
 ![image](https://github.com/Waqas56jb/Weather-Application/assets/156122615/f0680121-05e6-445e-b892-532836ddad93)
 
