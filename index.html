@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add custom styles here */
+        .navbar {
+            background-color: #ffffff !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        body {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <h1 class="extra-bold">Weather Application</h1>
+    </nav>
+    <hr>
+    <div class="card">
+        <div class="color-selector">
+            <span class="color" style="background-color: #000000;"></span>
+            <span class="color" style="background-color: #1cb39e;"></span>
+            <span class="color" style="background-color: #53245c;"></span>
+            <span class="color" style="background-color: #194643;"></span>
+            <span class="color" style="background-color: #093150b7;"></span>
+        </div>
+        <div class="search">
+            <input type="text" class="city-input" placeholder="Enter city name" spellcheck="false">
+            <button class="search-btn"><img src="search.png" alt="Search"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City name</p>
+        </div>
+        <div class="weather">
+            <img src="rain.png" alt="Weather Icon" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="detail">
+                    <img src="humidity.png" alt="Humidity Icon">
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="detail">
+                    <img src="wind.png" alt="Wind Icon">
+                    <p class="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="temperature-units">
+            <button class="unit-c active">°C</button>
+            <button class="unit-f">°F</button>
+        </div>
+        <div class="btn-group" style="margin-top: 20px; text-align: center;">
+            <button class="btn btn-primary" id="lightOn">Light On</button>
+            <button class="btn btn-primary" id="lightOff">Light Off</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js">
+       
+    </script>
+    <br>
+    <hr>
+    <footer style="color: aliceblue; justify-content:center;text-align:center"></footer>
+</body>
+</html>
